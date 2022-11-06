@@ -16,25 +16,25 @@ const url = "https://randomuser.me/api/";
 
 function App() {
   //! ile data çekme
-  const apiGet2 = () => {
-    fetch(url)
-      .then((res) => res.json())
-      .then((data) => setUserdata(data.results[0])) //! Çekilen data destruct edildi.
-      .catch(console.error());
-      setFirstP("");
-      setDataP("")
-  };
-
-  //? axios ile data çekme
-  // const apiGet = async () => {
-  //   const { data } = await axios.get(url);
-
-  //   setUserdata(data.results[0]);
+  // const apiGet2 = () => {
+  //   fetch(url)
+  //     .then((res) => res.json())
+  //     .then((data) => setUserdata(data.results[0])) //! Çekilen data destruct edildi.
+  //     .catch(console.error());
+  //     setFirstP("");
+  //     setDataP("")
   // };
 
+  //? axios ile data çekme
+  const apiGet = async () => {
+    const { data } = await axios.get(url);
+
+    setUserdata(data.results[0]);
+  };
+
   useEffect(() => {
-    // apiGet()
-    apiGet2();
+    apiGet()
+    // apiGet2();
   }, []);
 
   const [userdata, setUserdata] = useState(null);
@@ -86,8 +86,7 @@ function App() {
 
   const handleAdd = () => {
     console.log(typeof userdata);
-    // const  {name:{first}, phone, email, dob:{age}} = userdata
-    // const  newdata = userdata
+
     !userList.includes(userdata) && setUserList([...userList, userdata]);
 
   };
