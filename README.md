@@ -1,12 +1,10 @@
 # 🚀 Random User App II React Project
 
-## Animation of the Website
-
-![image](./AnimationUserApp2.gif)
+## Check The Live Website ➡️ [Live Website](https://coopertourplaces.netlify.app/)
 
 ## Visulation of the Website
 
-![image](./user2.jpg)
+![image](./AnimationUserApp2.gif)
 
 ## Project Skeleton
 
