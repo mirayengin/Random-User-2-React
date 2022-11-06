@@ -1,6 +1,6 @@
 # Project : Random User App v2
 
-## Check The Live Website ➡️ [Live Website](https://cooper-randomuserapp-react.onrender.com/)
+## Check The Live Website ➡️ [Live Website](https://mirayengin-randomuserv2-react.netlify.app/)
 
 ## Visualization of the Website
 
