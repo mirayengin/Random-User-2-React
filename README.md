@@ -1,53 +1,78 @@
-# 🚀 Random User App II React Project
+# Project : Random User App v2
 
-## Check The Live Website ➡️ [Live Website](https://mirayengin-randomuserapp2-react.netlify.app/)
+## Check The Live Website ➡️ [Live Website](https://cooper-randomuserapp-react.onrender.com/)
 
-## Visulation of the Website
+## Visualization of the Website
 
-![image](./AnimationUserApp2.gif)
+![Form](./AnimationRandomUser2.gif)
+
+## Description
+
+Project aims to create an Random User app with React.
+
+## Learning Outcomes
+
+At the end of the project, you will be able to;
+
+- improve coding skills within HTML & CSS & JS & ReactJS.
+
+- use git commands (push, pull, commit, add etc.) and Github as Version Control System.
+
+## Problem Statement
+
+- We are adding a new project to our portfolios. So you and your colleagues have started to work on the project.
 
 ## Project Skeleton
 
 ```
-004 - Random User App II (folder)
+Project(folder)
 |
-|----readme.md         
-SOLUTION
+|----README.md
 ├── public
 │     └── index.html
 ├── src
-│    ├── assets.js
-│    │       └── [images]
+│    ├── components
+│    │       ├── Footer.js
+│    │       ├── Footer.css
+│    ├── assests
 │    ├── App.js
-│    ├── App.css
 │    ├── index.js
-│    └── index.css
-├── package.json
-└── yarn.lock
+│    ├── App.css
+│    ├── index.css
+└── package.json
 ```
 
-##Objective
-Build a Random User App using ReactJS.
+### Dependencies
 
-At the end of the project, following topics are to be covered;
-HTML
+- react-dom@6.3
 
-CSS
+- axios
 
-JS
+- https://randomuser.me/api/
 
-ReactJS
 
-##At the end of the project, students will be able to;
-Improve coding skills within HTML & CSS & JS & ReactJS.
+### Overview
 
-Use git commands (push, pull, commit, add etc.) and Github as Version Control System.
+I mastered HTML & CSS & JS & ReactJS features in this project.
+You can see the visual representation of the website above.
 
-##Steps to Solution
-Step 1: Create React App using npx create-react-app random-user-app-two.
+## Notes
 
-Step 2: Build Random User App fetching data from https://randomuser.me/api/ using axios.
+- Step 1: Create React App using `npx create-react-app project-name`
 
-Step 3: Push your application into your own public repo on Github.
+- Step 2: For images you can use [Images](./src/assests).
 
-Step 4: Add project gif to your project and README.md file.
+- Step 3: Push your application into your own public repo on Github
+
+- Step 4: Add project gif to your project and README.md file.
+
+## Resources
+
+- 🔥 You can use [`random-user-API`](https://randomuser.me/api/) for your own work.
+
+## Support
+- Open an Issue, I will check it a soon as possible 👀
+
+- Don't forget to start the repo ⭐
+
+# <center> ⌛ Happy Coding ✍ </center>
