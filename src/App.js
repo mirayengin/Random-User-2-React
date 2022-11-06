@@ -171,7 +171,7 @@ function App() {
                 </button>
               </div>
               <div className="btn-group">
-                <button onClick={() => apiGet2()} className="btn" type="button">
+                <button onClick={() => apiGet()} className="btn" type="button">
                   new user
                 </button>
                 <button onClick={handleAdd} className="btn" type="button">
