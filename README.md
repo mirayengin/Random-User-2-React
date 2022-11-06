@@ -4,7 +4,7 @@
 
 ## Visualization of the Website
 
-![Form](./AnimationRandomUser2.gif)
+![Form](./AnimationUserApp2.gif)
 
 ## Description
 
